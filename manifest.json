@@ -2,7 +2,7 @@
 "manifest_version": 2,
     "name": "Corona To Zombies",
     "description": "Replaces all references of COVID-19 with zombies",
-    "version": "0.0.0.4",
+    "version": "0.0.0.5",
     "content_scripts": [
         {
             "matches": [

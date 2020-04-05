@@ -1,11 +1,16 @@
 var elements = document.getElementsByTagName('*');
 var replacements = [
-    {original:'COVID-19', replace:'ZOMBIE'},
-    {original:'COVID 19', replace:'ZOMBIE'},
+    {original:'COVID-19', replace:'Zombie'},
+    {original:'COVID 19', replace:'Zombie'},
     {original:'Covid-19', replace:'Zombie'},
     {original:'Covid 19', replace:'Zombie'},
     {original:'covid-19', replace:'zombie'},
     {original:'covid 19', replace:'zombie'},
+    
+    {original:'SARS-CoV-2', replace:'Zombie'},
+    {original:'SARS-COV-2', replace:'Zombie'},
+    {original:'sars-cov-2', replace:'Zombie'},
+    {original:'Sars-Cov-2', replace:'Zombie'},
     
     {original:'COVID', replace:'ZOMBIE'},
     {original:'Covid', replace:'Zombie'},
